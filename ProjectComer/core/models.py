@@ -1,3 +1,16 @@
 from django.db import models
 
-# Create your models here.
+class Comercial(models.Model):
+    name = models.CharField(max_length=30)
+
+
+
+
+
+
+
+    pass
+
+
+class Users(models.Model):
+    pass
