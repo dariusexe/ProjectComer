@@ -13,4 +13,9 @@ class Comercial(models.Model):
 
 
 class Users(models.Model):
+    name = models.CharField(max_length=30)
+
+
+
+
     pass
